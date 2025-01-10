@@ -1,0 +1,22 @@
+{
+  "name": "crypto-app",
+  "version": "1.0.0",
+  "description": "A Node.js application that fetches cryptocurrency data and provides APIs for stats and deviation.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "fetch": "node src/jobs/fetchCryptoData.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "node-cron": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
